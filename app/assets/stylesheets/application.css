@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+.toph1 {
+  color: black;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

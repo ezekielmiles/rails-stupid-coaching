@@ -1,0 +1,21 @@
+<div class="container">
+  <h1 class="toph1">Stupid Coaching</h1>
+
+  <blockquote class="blockquote">
+    <p class="mb-0"><%= @question %></p>
+    <p></p>
+    <p></p>
+    <footer class="blockquote-footer"><cite>Sent By You!</cite></footer>
+  </blockquote>
+
+  <blockquote class="blockquote">
+    <p class="mb-0"><%= @answer %></p>
+    <p></p>
+    <p></p>
+    <footer class="blockquote-footer"><cite>Sent By Your Coach!</cite></footer>
+  </blockquote>
+
+  <!-- <a href="/ask">Ask another question!</a> -->
+  <%= link_to("Ask another question!", ask_path) %>
+  <!-- link_to("what it should say"), where it should go -->
+</div>
